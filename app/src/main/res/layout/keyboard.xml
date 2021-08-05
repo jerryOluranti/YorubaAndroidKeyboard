@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.yorubaandroidkeyboard.MyKeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard"
+    android:layout_alignParentBottom="true"
+    android:keyTextColor="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:keyBackground="@drawable/key_background"
+    android:keyPreviewLayout="@layout/key_preview">
+<!--    android:background="@color/design_default_color_error">-->
+
+</com.example.yorubaandroidkeyboard.MyKeyboardView>

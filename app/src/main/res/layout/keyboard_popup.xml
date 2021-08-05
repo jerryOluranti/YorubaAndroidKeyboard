@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard_popup_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:keyBackground="@drawable/key_background"
+        android:keyPreviewLayout="@layout/key_preview"
+        android:keyPreviewOffset="0px"
+        android:keyPreviewHeight="15dp"
+        android:keyTextColor="#121111"
+        />
+
+</LinearLayout>
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<TextView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:keyTextColor="@color/black"-->
+<!--    android:background="@drawable/key_popup_background"-->
+<!--    android:layout_width="0dp"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_weight="10">-->
+
+<!--</TextView>-->
